@@ -88,12 +88,21 @@ header a:hover{
 #hero h1{
     color: white;
 }
-#homecup .container{
+#homecup .container h1{
     text-align: center;
-    padding: 150px 12px;
+    margin-top: 100px;
+    padding: 12px;
+    font-size: 50px;
+    font-weight: bold;
 }
-.logonegro{
-    width: 220px;
+#homecup p{
+    font-size: 26px;
+    font-weight: 200;
+    width: auto;
+    margin: 40px;
+}
+#homecup span{
+    font-weight: 500;
 }
 #nuestros-programas{
     background-color: white;
@@ -109,7 +118,7 @@ header a:hover{
     padding: 50px;
     margin: 30px;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .carta:first-child{
     background-image: url(./../fotos/bolsa-cafe.jpg);
@@ -127,6 +136,10 @@ header a:hover{
     font-weight: 500;
     text-decoration: underline;
     color: #479FDA;
+}
+.nuestrahistoria p {
+    font-size: 32px;
+    font-weight: 600;
 }
 footer{
     background-color: black;
