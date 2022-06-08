@@ -142,6 +142,10 @@ header a:hover{
     font-weight: 600;
     margin-bottom: 70px;
 }
+.nuestrahistoria a {
+    text-decoration: none;
+    color: #479FDA;
+}
 footer{
     background-color: black;
 }
