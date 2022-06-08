@@ -251,6 +251,16 @@ footer .container{
         text-align: center;
         margin-top: 40px;
     }
+    .titulo-recetas{
+        margin: auto;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .titulo-kiosco{
+        margin: auto;
+        text-align: center;
+        margin-top: 40px;
+    }
 }
 
 .titulo-recetas{
@@ -268,4 +278,104 @@ footer .container{
     color: black;
     margin-top: 100px;
     font-weight: 600;
+}
+
+.contenedor{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 20px 100px;
+}
+.contenedor::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(50px);
+}
+.contacto{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+    border: solid 1px black;
+}
+.left{
+    height: 100%;
+    background: url("./../fotos/tamper.jpg") no-repeat center;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.right{
+    padding: 25px 40px;
+}
+.titulo-contacto{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.campo{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: 0.2s;
+}
+.campo:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.campo:focus{
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+}
+.area{
+    min-height: 150px;
+}
+.boton{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #479FDA;
+    cursor: pointer;
+    outline: none;
+    border: solid 1px black;
+    transition: 0.5s;
+}
+.boton:hover{
+    background-color: #272727;
+    color: #fff;
+}
+#historia p{
+    font-size: 22px;
+    font-weight: 400;
+    max-width: 800px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 100px;
+    padding: 12px;
+    color: white;
+}
+#historia{
+    border: solid 1px black;
+    background-image: url(./../fotos/chemex.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
 }
