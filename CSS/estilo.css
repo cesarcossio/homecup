@@ -140,6 +140,7 @@ header a:hover{
 .nuestrahistoria p {
     font-size: 32px;
     font-weight: 600;
+    margin-bottom: 70px;
 }
 footer{
     background-color: black;
@@ -253,6 +254,14 @@ footer .container{
 }
 
 .titulo-recetas{
+    text-align: left;
+    margin-left: 200px;
+    font-size: 40px;
+    color: black;
+    margin-top: 100px;
+    font-weight: 600;
+}
+.titulo-kiosco{
     text-align: left;
     margin-left: 200px;
     font-size: 40px;
