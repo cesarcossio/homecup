@@ -196,6 +196,16 @@ footer .container{
         padding: 150px 40px;
     }
 }
+@media screen and (max-width: 400px){
+    #hero h1{
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 310px){
+    #hero h1{
+        font-size: 3rem;
+    }
+}
 
 .titulo-cafe{
     text-align: left;
@@ -443,4 +453,35 @@ footer .container{
 }
 .receta:nth-child(6){
     background-image: url(./../fotos/recetas-kalita.jpg);
+}
+
+@media screen and (max-width: 1000px){
+    #nuestras-recetas .receta{
+        width: auto;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .titulo-recetas{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 500px){
+    #nuestras-recetas .container{
+        width: auto;
+        max-width: auto;
+        align-items: center;
+        border-radius: 10px;
+    }
+    #nuestras-recetas .receta{
+        width: auto;
+        max-width: auto;
+        align-items: center;
+        border-radius: 10px;
+    }
+    main .titulo-recetas{
+        text-align: center;
+        font-size: 2rem;
+        margin: auto;
+        margin-top: 30px;
+    }
 }
